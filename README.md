@@ -24,7 +24,7 @@ Demo
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/duvrdx/podcastr_nlw5.git
+$ git clone https://github.com/duvrdx/github-cards.git
 ```
 
 ### 💻 Run Web Project
