@@ -1,0 +1,27 @@
+.headerContainer{
+    width: 100vw;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #325D7F;
+    color:#fff;
+    box-shadow: 4px 4px 6px rgba($color: #000, $alpha: .15);
+
+    h1{
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    p{
+        margin-top: .5rem;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: #B2DDFF;
+    }
+
+}

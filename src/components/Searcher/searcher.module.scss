@@ -1,0 +1,136 @@
+.searcherContainer{
+    width: 100vw;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBarWrapper{
+    width: 100%;
+    margin: 1.5rem;
+    padding: .5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .wrapperButton{
+        width: 35rem;
+        height: 5rem;
+
+        input, button{
+            padding: 0 .8rem;
+            margin: .3rem;
+            line-height: 2rem;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+        
+        input{
+            width: 80%;
+            text-decoration: none;
+            border: none;
+            font-size: 1rem;
+            outline: 0;
+            background-color: #ebf6ff;
+            border-bottom: 1px solid rgba(0,0,0,.30);
+            
+            transition: all 200ms ease;
+    
+            &:focus{
+                border-bottom: 1px solid rgb(0,0,0);
+            }
+
+            &:hover{
+                font-size: 1.05rem;
+                line-height: 2rem;
+            }
+    
+        }
+
+        button{
+            width: 15%;
+            background-color: #325D7F;
+            outline: 0;
+            font-family: sans-serif;
+            font-weight: 400;
+            border: none;
+            line-height: 2rem;
+            border-radius: 4px;
+            color: white;
+            box-shadow: 2px 2px 3px rgba(0,0,0,.30);
+    
+            &:hover{
+                cursor: pointer;
+                background-color: #65BAFF;
+                color: white;
+                box-shadow: 2px 2px 3px rgba(0,0,0,0);
+            }
+        }
+    
+    }
+
+    
+    
+}
+
+.cardContainer{
+    margin: 0 auto;
+    padding: 2rem 0;
+    max-width: 20rem;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #325D7F;
+    color:#fff;
+    box-shadow: 4px 4px 6px rgba(0,0,0,.15);
+    border-radius: 5%;
+
+    font-family: sans-serif;
+
+    h1{
+        color: #65BAFF ;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #B2DDFF;
+    }
+
+    img{
+        max-width:15rem;
+        border-radius: 10%;
+        box-shadow: 4px 4px 6px rgba(0,0,0,.15);
+    }
+
+}
+
+.empty{
+    display:none;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3rem;
+    
+    font-family: sans-serif;
+    color: rgb(252, 94, 94);
+    font-size: 1.5rem;
+
+    transition: all 3s ease;
+
+}
+
+.bio{
+    padding: .5rem;
+    font-size: .8rem;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    
+    main{
+        background-color: #ebf6ff;
+        flex: 1;
+        height: 100vh;
+    }
+}
